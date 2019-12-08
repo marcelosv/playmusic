@@ -1,0 +1,9 @@
+version: "3.3"
+
+services:
+  s3ninja:
+    image: "scireum/s3-ninja:4"
+    ports:
+      - 9444:80
+
+
